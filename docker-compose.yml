@@ -1,0 +1,8 @@
+version: '3'
+services:
+        ravi:
+                image: tomcat
+                container_name: jagga
+                volumes:
+                  - ./original:/foo
+                  - ./original:/bar
